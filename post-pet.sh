@@ -11,5 +11,5 @@ curl -X GET "http://localhost:8088/pets?id=1"
 echo "Listing pets..."
 curl -X GET "http://localhost:8088/pets?pageSize=10&offset=0"
 
-#echo "Deleting pet..."
-#curl -X DELETE "http://localhost:8088/pets?id=1"
+echo "Deleting pet..."
+curl -X DELETE "http://localhost:8088/pets?id=1"

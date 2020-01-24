@@ -10,7 +10,7 @@ from urlparse import parse_qs
 from urlparse import urlsplit
 
 class PetStoreClient(object):
-    def __init__(self, url='http://localhost:8080'):
+    def __init__(self, url='http://localhost:8088'):
         self.index_url = url
         self.headers = {
             'Accept': 'application/json, text/plain',
